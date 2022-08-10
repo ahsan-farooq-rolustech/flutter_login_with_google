@@ -35,7 +35,7 @@ class LogInWithGoogle extends StatefulWidget {
 }
 
 class _LoginWithGoogleState extends State<LogInWithGoogle> {
-  String userEmail = "";
+  String userEmail = "user email";
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +47,7 @@ class _LoginWithGoogleState extends State<LogInWithGoogle> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [Text("user email"), Text(userEmail)],
+            children: [const Text("user email"), Text(userEmail)],
           ),
           ElevatedButton(
               onPressed: () async {
@@ -58,7 +58,7 @@ class _LoginWithGoogleState extends State<LogInWithGoogle> {
                 // await signInWithGoogle();
                 // setState(() {});
               },
-              child: Text("Login"))
+              child: const Text("Login"))
         ],
       ),
     );
