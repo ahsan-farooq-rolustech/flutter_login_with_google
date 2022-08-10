@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "958468694943",
+    "project_id": "flutter-firebase-login-ahsan",
+    "storage_bucket": "flutter-firebase-login-ahsan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958468694943:android:21452be4575841ee8a53aa",
+        "android_client_info": {
+          "package_name": "com.rolustech.flutter_login_with_google"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958468694943-l42r0jhvrtpu60o4j04cf2kqev8upf5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rolustech.flutter_login_with_google",
+            "certificate_hash": "ae474af392c2dadcb1a984fb815e44286e2ef8a0"
+          }
+        },
+        {
+          "client_id": "958468694943-a9hbrhcuu3h03n8481ocr89dfntntrsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBunoWDlGW4eGklwjkeJlbx9kVfgZtV1tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958468694943-a9hbrhcuu3h03n8481ocr89dfntntrsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
