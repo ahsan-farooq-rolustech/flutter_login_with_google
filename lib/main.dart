@@ -36,6 +36,7 @@ class LogInWithGoogle extends StatefulWidget {
 
 class _LoginWithGoogleState extends State<LogInWithGoogle> {
   String userEmail = "user email";
+  String idToken="token";
 
   @override
   Widget build(BuildContext context) {
@@ -52,13 +53,20 @@ class _LoginWithGoogleState extends State<LogInWithGoogle> {
           ElevatedButton(
               onPressed: () async {
                 final provider=Provider.of<GoogleSignInProvoder>(context,listen: false);
-                provider.googleLoginIn();
+                await provider.googleLoginIn();
                 userEmail=provider.user.email;
                 String id=provider.user.id;
                 // await signInWithGoogle();
                 // setState(() {});
               },
-              child: const Text("Login"))
+              child: const Text("Login")
+          ),
+          ElevatedButton(
+              onPressed: (){
+
+              },
+              child: Text("upload data to Firestore")
+          )
         ],
       ),
     );
